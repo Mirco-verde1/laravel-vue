@@ -1,7 +1,7 @@
 <template>
     <div>
 
-       <h1>{{title}}</h1>
+       <h1>{{catalogue.title}}</h1> <span>Price :{{catalogue.price}}</span>
     </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
 
     props: {
 
-        title:String
+        catalogue:Object
     },
 
 }
